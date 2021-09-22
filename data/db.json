@@ -1,0 +1,42 @@
+{
+    "dashboard": [
+      {
+        "title": "Név 1",
+        "details": "Leírás 1",
+        "id": 1
+      },
+      {
+        "title": "Név 2",
+        "details": "Leírás 2",
+        "id": 2
+      },
+      {
+        "title": "Név 3",
+        "details": "Leírás 3",
+        "id": 3
+      },
+      {
+        "title": "Név 4",
+        "details": "Leírás 4",
+        "id": 4
+      },
+      {
+        "title": "Név 5",
+        "details": "Leírás 5",
+        "id": 5
+      },
+      {
+        "title": "Név 6",
+        "details": "Leírás 6",
+        "id": 6
+      }
+    ],
+
+    "profil": [
+        {
+            "felhasznalonev": "admin",
+            "jelszo": "admin",
+            "card": "1234567890"
+        }
+    ]
+  }
