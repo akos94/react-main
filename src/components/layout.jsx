@@ -13,6 +13,8 @@ import LogoutIcon from '@mui/icons-material/Logout';
 import SettingsIcon from '@mui/icons-material/Settings';
 import PersonIcon from '@mui/icons-material/Person';
 import Dashboard from "./dashboard/dashboard";
+import Quizz from "./quizz/quizz";
+import Bonusz from "./bonusz/bonusz";
 
 
 const drawerWidth = 240
@@ -52,12 +54,12 @@ export default function Layout({ children }){
             path: '/dashboard'
         },
         {
-            text: 'Quiz',
-            path: '/'
+            text: 'Quizz',
+            path: '/quizz'
         },
         {
             text: 'Bónusz Rendszer',
-            path: '/'
+            path: '/bonusz-rendszer'
         }
     ]
 
@@ -101,7 +103,9 @@ export default function Layout({ children }){
             </Drawer>
             <div className={classes.page}>
                 <Switch>
-                    <Route exact path="/dashboard"      component = {Dashboard} />
+                    <Route exact path="/dashboard"          component = {Dashboard} />
+                    <Route exact path="/quizz"              component = {Quizz} />
+                    <Route exact path="/bonusz-rendszer"    component = {Bonusz} />
                 </Switch>
             </div>
             

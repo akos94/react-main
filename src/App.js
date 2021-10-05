@@ -12,8 +12,8 @@ function App() {
         <Switch>
           
           <Route exact path="/dashboard" component={Layout}/>
-  
-          
+          <Route exact path="/quizz" component={Layout}/>
+          <Route exact path="/bonusz-rendszer" component={Layout}/>
   
           <Route path="/login" component={TabletLoginLayout}/>
           
@@ -28,7 +28,8 @@ function App() {
           <Switch>
             
             <Route exact path="/dashboard" component={Layout}/>
-    
+            <Route exact path="/quizz" component={Layout}/>
+            <Route exact path="/bonusz-rendszer" component={Layout}/>
             
     
             <Route path="/login" component={LoginLayout}/>
